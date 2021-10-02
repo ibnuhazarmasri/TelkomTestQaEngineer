@@ -1,0 +1,790 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3220384000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initiate Browser",
+            "match": {
+              "location": "MidTransStepDef.initiate_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166619400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "setup SetTestData",
+            "match": {
+              "location": "MidTransStepDef.setup_SetTestData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 972820200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate Demo Midtrans",
+            "match": {
+              "location": "MidTransStepDef.navigate_Demo_Midtrans()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 30,
+        "name": "Negative Transaction",
+        "description": "",
+        "id": "midtrans-demo;negative-transaction;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14636500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go To landing page Midtrans",
+            "match": {
+              "location": "MidTransStepDef.go_To_landing_page_Midtrans()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 142771000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Button buy pillow",
+            "match": {
+              "location": "MidTransStepDef.click_Button_buy_pillow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Move to Shoping Chart",
+            "match": {
+              "location": "MidTransStepDef.move_to_Shoping_Chart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 677207100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "input Name \"imran\" on page customer details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imran",
+                  "offset": 12
+                }
+              ],
+              "location": "MidTransStepDef.input_Name_on_page_customer_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 314244000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Input Email \"imranduapuluh@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "imranduapuluh@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "MidTransStepDef.input_Email(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 221045800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Input PhoneNo \"0845362436\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0845362436",
+                  "offset": 15
+                }
+              ],
+              "location": "MidTransStepDef.input_PhoneNo(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169810300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Input City \"Bogor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bogor",
+                  "offset": 12
+                }
+              ],
+              "location": "MidTransStepDef.input_City(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245986400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Input Address \"Bojong Gede\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bojong Gede",
+                  "offset": 15
+                }
+              ],
+              "location": "MidTransStepDef.input_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261727700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input Postal Code \"4253652\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4253652",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Postal_Code(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149949300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click Checkout Button",
+            "match": {
+              "location": "MidTransStepDef.i_click_Checkout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1264258200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click continue",
+            "match": {
+              "location": "MidTransStepDef.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 292168500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Select Payment Method With CreditCard",
+            "match": {
+              "location": "MidTransStepDef.select_Payment_Method_With_CreditCard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 382499200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Input Card Number \"4911 1111 1111 1113\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4911 1111 1111 1113",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Card_Number(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141880600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Input Expiry Date \"0223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0223",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Expiry_Date(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123380000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Input CVV \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 11
+                }
+              ],
+              "location": "MidTransStepDef.input_CVV(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159121900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click PAYNOW",
+            "match": {
+              "location": "MidTransStepDef.click_PAYNOW()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3238380300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Input Bank OTP \"112233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "112233",
+                  "offset": 16
+                }
+              ],
+              "location": "MidTransStepDef.input_Bank_OTP(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1211408600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click OK",
+            "match": {
+              "location": "MidTransStepDef.click_OK()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@allTestcase"
+          },
+          {
+            "line": 2,
+            "name": "@NegativeCaseMidtrans"
+          }
+        ]
+      }
+    ],
+    "name": "Midtrans Demo",
+    "description": "",
+    "id": "midtrans-demo",
+    "keyword": "Feature",
+    "uri": "NegativeScenario.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@allTestcase"
+      },
+      {
+        "line": 2,
+        "name": "@NegativeCaseMidtrans"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1329257400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Initiate Browser",
+            "match": {
+              "location": "MidTransStepDef.initiate_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 166993700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "setup SetTestData",
+            "match": {
+              "location": "MidTransStepDef.setup_SetTestData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 937917300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate Demo Midtrans",
+            "match": {
+              "location": "MidTransStepDef.navigate_Demo_Midtrans()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "Positive Transaction",
+        "description": "",
+        "id": "midtrans-demo;positive-transaction;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8242400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Go To landing page Midtrans",
+            "match": {
+              "location": "MidTransStepDef.go_To_landing_page_Midtrans()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 132447900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Button buy pillow",
+            "match": {
+              "location": "MidTransStepDef.click_Button_buy_pillow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Move to Shoping Chart",
+            "match": {
+              "location": "MidTransStepDef.move_to_Shoping_Chart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 630707500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "input Name \"ibnu\" on page customer details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ibnu",
+                  "offset": 12
+                }
+              ],
+              "location": "MidTransStepDef.input_Name_on_page_customer_details(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 349844000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Input Email \"ibnuhazar.masri25@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ibnuhazar.masri25@gmail.com",
+                  "offset": 13
+                }
+              ],
+              "location": "MidTransStepDef.input_Email(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226928300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Input PhoneNo \"0864735273\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0864735273",
+                  "offset": 15
+                }
+              ],
+              "location": "MidTransStepDef.input_PhoneNo(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 203565600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Input City \"Jakarta\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Jakarta",
+                  "offset": 12
+                }
+              ],
+              "location": "MidTransStepDef.input_City(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237849200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Input Address \"KotaKasablanka\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KotaKasablanka",
+                  "offset": 15
+                }
+              ],
+              "location": "MidTransStepDef.input_Address(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266743900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Input Postal Code \"106723\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "106723",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Postal_Code(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150740800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click Checkout Button",
+            "match": {
+              "location": "MidTransStepDef.i_click_Checkout_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1262883600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click continue",
+            "match": {
+              "location": "MidTransStepDef.click_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257455900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Select Payment Method With CreditCard",
+            "match": {
+              "location": "MidTransStepDef.select_Payment_Method_With_CreditCard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 293947200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Input Card Number \"4811 1111 1111 1114\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4811 1111 1111 1114",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Card_Number(String)"
+            },
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94169000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Input Expiry Date \"0223\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0223",
+                  "offset": 19
+                }
+              ],
+              "location": "MidTransStepDef.input_Expiry_Date(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 121725800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Input CVV \"123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 11
+                }
+              ],
+              "location": "MidTransStepDef.input_CVV(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104866100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click PAYNOW",
+            "match": {
+              "location": "MidTransStepDef.click_PAYNOW()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3289248900,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 25,
+                "value": "#    And click pares"
+              }
+            ],
+            "line": 26,
+            "name": "Input Bank OTP \"112233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "112233",
+                  "offset": 16
+                }
+              ],
+              "location": "MidTransStepDef.input_Bank_OTP(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226502100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click OK",
+            "match": {
+              "location": "MidTransStepDef.click_OK()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@allTestcase"
+          },
+          {
+            "line": 2,
+            "name": "@PositiveCaseMidtrans"
+          }
+        ]
+      }
+    ],
+    "name": "Midtrans Demo",
+    "description": "",
+    "id": "midtrans-demo",
+    "keyword": "Feature",
+    "uri": "PositiveScenario.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@allTestcase"
+      },
+      {
+        "line": 2,
+        "name": "@PositiveCaseMidtrans"
+      }
+    ]
+  }
+]
